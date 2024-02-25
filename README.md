@@ -1,0 +1,2 @@
+# SummitSync
+Hackathon Project 
