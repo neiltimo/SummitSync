@@ -1,0 +1,258 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color:#363062;
+  color:white;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#menu-prev-section .btn{
+  background-color:#0D4C92;
+}
+
+#menu-prev-section .btn:hover{
+  background-color:#1266c5;
+  color:#86B6F6;
+}
+.offcanvas{
+  font-family: "Poppins", sans-serif;
+  color:white;
+  background-color:#7286D3
+}
+
+.offcanvas a{
+  font-family: "Poppins", sans-serif;
+  color:white;
+  background:transparent;
+  border:none;
+  transition-duration: .5s;
+  
+}
+
+.offcanvas a:hover{
+  background-color:#1266c5;
+}
+
+#previous-recordings{
+  bottom:0;
+  padding-top:30px;
+}
+
+.borderless a {
+    border-top: none;
+}
+
+#bottom-bar{
+  background-color:#7286D3;
+  border-radius:0%;
+  width:100%;
+  height: 8vh;
+  text-align:center;
+}
+
+#main-section{
+  text-align:center;
+  /* background-image:url("img/cloud.gif");
+  background-size:cover;
+  background-position:center; */
+}
+
+#main-section img{
+  width:600px;
+  /* transform: */
+}
+
+
+.container{
+  background-color: black;
+  padding: 20px 50%;
+}
+
+#upload-section{
+  margin: 0px 500px;
+  background-color: #6ea7f4;
+  /* border: 1px solid #ddd; */
+  border-radius: 5px;
+  padding:20px;
+}
+
+
+
+ #summary-section {
+   margin: 20px 500px;
+   background-color:#306ABD;
+   /* border: 1px solid #ddd; */
+   border-radius: 5px;
+  padding:20px;
+}
+
+
+
+#upload-form {
+    margin-top: 10px;
+}
+
+#upload-form input[type="file"] {
+    margin-bottom: 10px;
+}
+
+#upload-form button {
+    background-color: #0D4C92;
+    color: #9fc8f6;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#upload-form button:hover {
+    background-color: #1266c5;
+}
+
+#summary-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#summary-list li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #306ABD !important;
+    border-radius: 5px;
+}
+
+
+
+
+
+#footer-section{
+  bottom:0;
+}
+
+.btn{
+  background-color: #0D4C92;
+  color: #9fc8f6;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-size:cover;
+  background-position: center;
+  background-image: url("img/mountain2-login.gif");
+}
+
+.login-container{
+  width: 420px;
+  background-color: rgba(67,115,184,.65);
+  border-radius: 10px;
+  padding: 30px 40px;
+  color: #fff;
+}
+
+.wrapper h1{
+  font-size: 36px;
+  text-align: center;
+  color: #fff;
+}
+
+.wrapper .input-box{
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+
+.input-box input{
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255,255,255,0.2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: #fff;
+  padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder{
+  color: #fff
+}
+
+.input-box i{
+  position: absolute;
+  right: 20px;  
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+
+.wrapper .remember-forget{
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin: -15px 0 15px;
+}
+
+.remember-forget label input{
+  accent-color: #fff
+  margin-right: 3px;
+}
+
+.remember-forget a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.remember-forget a:hover{
+  text-decoration: underline;
+}
+
+.wrapper .btn{
+  width: 100%;
+  height: 45px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #11305E;
+  font-weight: 600;
+}
+
+.wrapper .register-link{
+  font-size: 14.5px;
+  text-align: center;
+  margin-top: 20px 0 15px;
+}
+
+.register-link p a{
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.register-link p a:hover{
+  text-decoration: underline;
+}
+
+.copyBtn{
+  background-color: #0D4C92;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+.copyBtn:hover{
+  background-color: #1266c5;
+}
